@@ -62,7 +62,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "7",
+            "value": "8",
             "varName": "max_speed",
             "varType": 1
         },
@@ -90,7 +90,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.05",
+            "value": "0.035",
             "varName": "friction_amount",
             "varType": 0
         }
