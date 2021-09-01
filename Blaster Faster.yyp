@@ -34,7 +34,7 @@
             "Key": "0132d486-61ef-4123-8741-dec865293efe",
             "Value": {
                 "id": "0396e4ee-0e64-4544-a8b5-c76aa50715c8",
-                "resourcePath": "sprites\\s_enemy_one\\s_enemy_one.yy",
+                "resourcePath": "sprites\\s_enemy_two\\s_enemy_two.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "64bea8a7-3ffe-43aa-bd36-e99bb3623daa",
+            "Value": {
+                "id": "407d6a0a-8492-49ac-9e53-11da70796306",
+                "resourcePath": "objects\\o_enemy_ship_one\\o_enemy_ship_one.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "66c95824-fa2f-4391-bccc-dcfb12806876",
             "Value": {
                 "id": "ce760cb4-b10f-4359-9bcf-3711a9a75969",
@@ -186,7 +194,7 @@
             "Key": "70221fab-02b0-41c2-a7e5-9506d0289088",
             "Value": {
                 "id": "8606bab1-51b7-44d7-a913-b3daa682b3d1",
-                "resourcePath": "sprites\\s_enemy_two\\s_enemy_two.yy",
+                "resourcePath": "sprites\\s_enemy_one\\s_enemy_one.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -316,6 +324,14 @@
                 "id": "46c0dbf7-c906-4e16-9c65-8815e6b30ac8",
                 "resourcePath": "objects\\o_laser\\o_laser.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bc017133-f312-480d-bb10-04178cc32b22",
+            "Value": {
+                "id": "a0417184-b6a5-4a49-9712-f30806ff4162",
+                "resourcePath": "scripts\\create_laser_effect\\create_laser_effect.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -459,7 +475,8 @@
         "1632a50c-d044-48bd-9d6f-98d0879b161e",
         "9e1d87f5-277c-4106-bbdb-fd2b819e8a09",
         "3f34fc39-4db7-48e7-b330-7f99bd02a153",
-        "f1c4ccc9-d823-4d02-b091-e170c8d6e6e7"
+        "f1c4ccc9-d823-4d02-b091-e170c8d6e6e7",
+        "bc017133-f312-480d-bb10-04178cc32b22"
     ],
     "tutorial": ""
 }
