@@ -1,33 +1,23 @@
 {
-    "id": "64bea8a7-3ffe-43aa-bd36-e99bb3623daa",
+    "id": "9fd1d885-c437-462a-9009-1205680602d1",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_enemy_ship_one",
+    "name": "o_ship_parent",
     "eventList": [
         {
-            "id": "6e43209d-d840-4759-b803-b2f29e630b2c",
+            "id": "8a3bb0e5-5262-46d4-ac7a-602bf4ec9137",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
+            "enumb": 2,
             "eventtype": 3,
-            "m_owner": "64bea8a7-3ffe-43aa-bd36-e99bb3623daa"
-        },
-        {
-            "id": "68919842-4618-42c9-a6fc-eab6e6e702e9",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "557eec18-c910-43e1-9602-1df36b33662a",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "64bea8a7-3ffe-43aa-bd36-e99bb3623daa"
+            "m_owner": "9fd1d885-c437-462a-9009-1205680602d1"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "9fd1d885-c437-462a-9009-1205680602d1",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -43,7 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "558cd431-3692-49a1-94a0-63dc5f685c4a",
+            "id": "6777088a-9b68-4102-b28f-1f46a09e679c",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -52,12 +42,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3",
-            "varName": "max_speed",
-            "varType": 0
+            "value": "1",
+            "varName": "max_armor",
+            "varType": 1
         },
         {
-            "id": "0b036b50-d6f5-405f-806f-dcc87c121f6a",
+            "id": "8024b20d-6dcb-44c9-84cd-c7484f0fd291",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -66,12 +56,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.1",
-            "varName": "acceleration",
-            "varType": 0
+            "value": "1",
+            "varName": "armor",
+            "varType": 1
         }
     ],
     "solid": false,
-    "spriteId": "70221fab-02b0-41c2-a7e5-9506d0289088",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

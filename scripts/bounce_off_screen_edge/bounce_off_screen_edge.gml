@@ -1,5 +1,5 @@
 var _half_width = sprite_get_width(sprite_index) / 2;
-var _half_height = sprite_get_height(sprite_index) / 2
+var _half_height = sprite_get_height(sprite_index) / 2;
 var _momentum_loss = 0.5;
 
 if (x < _half_width or x > room_width - _half_width) {
